@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Портфоліо</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="text-center">Портфоліо</h1>
+    </header>
+
+    <div class="container">
+        <ul class="nav nav-tabs" id="myTabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#aboutMeTab">Про себе</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#hobbiesTab">Хобі</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#contactTab">Контакти</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="aboutMeTab" class="tab-pane active">
+                <h2>Про себе</h2>
+                <p>Я - Лазорищак Тарас. Мені 17 років. Я є студент Івано-Франківського національного технічного університету нафти і газу. Навчаюся на першому курсі, по спеціальності під назвою "Інженерія відновлюваної енергетики". Я люблю працювати з різними приладами і мені цікава ця сфера. Також, я маю безліч хобі. Я люблю вивчати іноземні мови, цікавлюсь комп'ютерними технологіями, але найбільше люблю спорт. А саме, я обожнюю грати у футбол та дивитися футбольні матчі.</p>
+                <img src="data:image/jpeg;base64,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" alt="Про себе 1" class="img-fluid" alt="Зображення 1" style="max-width: 95%; max-height: 95%;">
+            </div>
+
+            <div id="hobbiesTab" class="tab-pane">
+                <h2>Хобі</h2>
+                <p>Як я вже казав я люблю грати й дивитися футбол. Ще з дитинства я любив цей вид спорту через позитивні емоції та радість. Футбол розвиває хороші якості такі як: фізична сила та стратегічне мислення. Вже в ранньому віці я спостерігав за різними  командами та знайшов свою улюблену. Моя улюблена команда є Барселона. Мене зачарувала ця команда своїми комбінаціями, різними вражаючими голами, своїм духом та чудовими гравцями, які виступали раніше й зараз за цей клуб. Саме ця команда надихає мене рухатись вперед та дає мені мотивацію. Тому, я багато тренуюсь щоб в майбутньому теж грати за якийсь престижний клуб.</p>
+                <img src="https://sportishka.com/uploads/posts/2021-11/1637327095_4-sportishka-com-p-barselona-fk-komandnii-sport-foto-7.jpg" alt="Зображення 1" style="max-width: 60%; max-height: 95%;">
+                <img src="https://chelseablues.ru/_nw/333/07594438.jpg" alt="Зображення 2" style="max-width: 60%; max-height: 95%;">
+            </div>
+
+            <div id="contactTab" class="tab-pane">
+                <h2>Контакти</h2>
+                <p>Якщо у когось є бажання зі мною ближче познайомитись, ви можете знайти мене в соцмережі "Instagram" та зв'язатися зі мною за цим посиланням:</p>
+                <a href="https://instagram.com/__lazzzer__?igshid=MzMyNGUyNmU2YQ==">Перейти до мого Instagram профілю</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
